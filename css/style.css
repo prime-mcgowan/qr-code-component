@@ -61,6 +61,7 @@ p {
 /* Footer ******************************************************************/
 /* *********************************************************************** */
 footer {
+  /* pushes the footer to the bottom  */
   margin-top: auto;
 }
 .attribution {
@@ -70,3 +71,35 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* ************************************************************************ */
+/* Media Queries */
+/* ************************************************************************ */
+@media only screen and (min-width: 1024px) {
+  .app {
+    display: grid;
+    place-items: center;
+    margin: 150px 300px 150px 300px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+/* 
+@media only screen and (min-width: 1200px) {
+    .app {
+      display: grid;
+      place-items: center;
+      margin: 200px 400px 200px 400px;
+    }
+  
+    h1 {
+      font-size: 50px;
+    }
+  
+    p {
+      font-size: 35px;
+    }
+  } */
