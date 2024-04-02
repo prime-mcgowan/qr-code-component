@@ -75,6 +75,18 @@ footer {
 /* ************************************************************************ */
 /* Media Queries */
 /* ************************************************************************ */
+@media only screen and (min-width: 768px) {
+  .app {
+    display: grid;
+    place-items: center;
+    margin: 100px 200px 100px 200px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .app {
     display: grid;
@@ -87,19 +99,18 @@ footer {
   }
 }
 
-/* 
 @media only screen and (min-width: 1200px) {
-    .app {
-      display: grid;
-      place-items: center;
-      margin: 200px 400px 200px 400px;
-    }
-  
-    h1 {
-      font-size: 50px;
-    }
-  
-    p {
-      font-size: 35px;
-    }
-  } */
+  .app {
+    display: grid;
+    place-items: center;
+    margin: 200px 400px 200px 400px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 35px;
+  }
+}
